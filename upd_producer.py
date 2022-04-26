@@ -93,7 +93,7 @@ class UdpReceiver:
             d['time'] = end.isoformat() 
             
             print(d['payload'])
-            self.producer.send('purchases', d)
+            self.producer.send('traffic', d)
             
     
     
