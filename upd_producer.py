@@ -100,8 +100,6 @@ class UdpReceiver:
     def __exit__(self, exc_type, exc_value, traceback):
         self.sock.close()
 
-# cd C:\Users\mouhc\Desktop\tracker
-
         
 if __name__ == "__main__":
     udp_receiver = UdpReceiver()
