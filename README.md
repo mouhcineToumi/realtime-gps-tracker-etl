@@ -1,6 +1,9 @@
 # realtime-gps-tracker-etl
 This is a simplified version of an architecture that can handle realtime GPS data using Kafka and MongoDB.
 
+### Architecture
+
+![Architecture](architecture.png "Architecture")
 
 # Requirements
 - Python3.6+

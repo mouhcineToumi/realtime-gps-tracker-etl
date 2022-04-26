@@ -83,9 +83,6 @@ class UdpReceiver:
         end = datetime.datetime.now()
         while (end-start).seconds < duration_s:
             data, addr = self.sock.recvfrom(1024)
-            
-            
-            
             end = datetime.datetime.now()
             d = {}
             d['address'] = addr
