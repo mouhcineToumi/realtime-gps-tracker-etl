@@ -38,7 +38,7 @@ python delete-sink.py
 
 ### 3.a - Push data to Kafka
 ```bash
-python producer.py
+python udp_producer.py
 ```
 
 ### 3.b - Keep an eye on what's pushed to the Kafka topic
